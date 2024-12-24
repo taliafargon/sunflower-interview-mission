@@ -33,3 +33,7 @@ The test is considered successful if:
 
 - The updated username replaced the old one correctly.
 - No errors occur during the update process.
+
+## - **How To Run**:
+
+npx playwright test --project=chromium --headed
