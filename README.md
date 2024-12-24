@@ -36,4 +36,4 @@ The test is considered successful if:
 
 ## - **How To Run**:
 
-npx playwright test --project=chromium --headed
+`npx playwright test --project=chromium --headed`
