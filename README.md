@@ -1,20 +1,20 @@
 # Sunflower Interview \- Test Standard
 
-**Update Profile Test**
+## **Update Profile Test**
 
-###### - **Test Purpose**:
+### - **Test Purpose**:
 
 To validate the functionality of updating a user's profile settings \- specifically the username and avatar \- and ensure that the changes are reflected accurately.
 
-###### - **Preconditions**:
+### - **Preconditions**:
 
-### - Add .env file to the main folder of the project, that includes the variables in the example.env file
+#### - Add .env file to the main folder of the project, that includes the variables in the example.env file
 
 - Log in to an account that has profile editing permission.
 - The account should have a predefined username to validate that updates are successful.
 - Record the original username for post-condition checks.
 
-###### - **Steps to Execute**:
+### - **Steps to Execute**:
 
 | Step                                                  | Primary Action                                         | Expected Result                                        |
 | ----------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
@@ -23,11 +23,11 @@ To validate the functionality of updating a user's profile settings \- specifica
 | 3\. Update the username and avatar, then save changes | Modify the username and avatar, then save the changes. | User details are updated successfully.                 |
 | 4\. Verify the profile                                | Navigate to the user's profile page.                   | Updated username and avatar are displayed.             |
 
-###### - **Post-Conditions**:
+### - **Post-Conditions**:
 
 Revert the username to its original value prior to the test execution.
 
-###### - **Validation Criteria**:
+### - **Validation Criteria**:
 
 The test is considered successful if:
 
